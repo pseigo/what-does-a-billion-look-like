@@ -86,8 +86,19 @@
 <script>
 "use strict";
 
-function assert_not_null(o, name) {
-  console.assert(o != null, `${name} must not be null`);
+window.onload = update_number_blocks;
+window.onresize = update_number_blocks;
+
+function update_number_blocks() {
+  update_number_block_height("ten-block",                          10);
+  update_number_block_height("one-hundred-block",                 100);
+  update_number_block_height("one-thousand-block",              1_000);
+  update_number_block_height("ten-thousand-block",             10_000);
+  update_number_block_height("one-hundred-thousand-block",    100_000);
+  update_number_block_height("one-million-block",           1_000_000);
+  update_number_block_height("ten-million-block",          10_000_000);
+  update_number_block_height("one-hundred-million-block", 100_000_000);
+  update_number_block_height("one-billion-block",       1_000_000_000);
 }
 
 function update_number_block_height(name, area) {
@@ -102,20 +113,9 @@ function update_number_block_height(name, area) {
   }
 }
 
-function update_number_blocks() {
-  update_number_block_height("ten-block",                          10);
-  update_number_block_height("one-hundred-block",                 100);
-  update_number_block_height("one-thousand-block",              1_000);
-  update_number_block_height("ten-thousand-block",             10_000);
-  update_number_block_height("one-hundred-thousand-block",    100_000);
-  update_number_block_height("one-million-block",           1_000_000);
-  update_number_block_height("ten-million-block",          10_000_000);
-  update_number_block_height("one-hundred-million-block", 100_000_000);
-  update_number_block_height("one-billion-block",       1_000_000_000);
+function assert_not_null(o, name) {
+  console.assert(o != null, `${name} must not be null`);
 }
-
-window.onload = update_number_blocks; 
-window.onresize = update_number_blocks; 
 
 </script>
 
