@@ -1,9 +1,10 @@
 main {
-  padding: 2em;
+  padding: 1.25em;
+  margin-top: 0.375em;
 }
 
 div.number-blocks > * {
-  margin-bottom: 2em;
+  margin-bottom: 1.25em;
 }
 
 div.one-block                  { width: 1px; height: 1px; }
