@@ -91,8 +91,9 @@ function assert_not_null(o, name) {
 }
 
 function update_number_block_height(name, area) {
-  const b = document.querySelector("div." + name);
-  assert_not_null(b, "element 'div." + name);
+  const selector = "div." + name;
+  const b = document.querySelector(selector);
+  assert_not_null(b, `element selected by '${selector}'`);
 
   if (b !== null) {
     const width = b.getBoundingClientRect().width;
