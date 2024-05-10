@@ -1,0 +1,16 @@
+main {
+  padding: 2em;
+}
+
+div.number-blocks > * {
+  margin-bottom: 2em;
+}
+
+div.one-block                  { width: 1px; height: 1px; }
+div.ten-block                  { width: 3px; }
+div.one-hundred-block          { width: 10px; max-width: 100%; }
+div.one-thousand-block         { width: 31px; max-width: 100%; }
+div.ten-thousand-block         { width: 100px; max-width: 100%; }
+div.one-hundred-thousand-block { width: 316px; max-width: 100%; }
+div.one-million-block          { width: 100%; }
+div.one-billion-block          { width: 100%; }
