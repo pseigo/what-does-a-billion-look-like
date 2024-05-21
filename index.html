@@ -33,24 +33,37 @@
 <div class="number-blocks">
 
   <div class="float-right">
-    <a href="https://github.com/pseigo/what-does-a-billion-look-like"
-       target="_blank"
-       referrerpolicy="strict-origin-when-cross-origin">
-      <button>
-        <div class="py-2 px-4
-                    bg-neutral-100 hover:bg-neutral-300
-                    rounded border border-neutral-200
-                    text-sm font-medium text-black">
-          <div class="flex
-                      flex-col      md:flex-row
-                      items-center  md:items-baseline
-                      gap-0         md:gap-1">
-            <span>View Source Code</span>
-            <span class="text-xs text-slate-500">on GitHub</span>
+    <div class="group">
+      <a href="https://github.com/pseigo/what-does-a-billion-look-like"
+         target="_blank"
+         referrerpolicy="strict-origin-when-cross-origin">
+        <button>
+          <div class="py-2 px-4
+                      rounded-lg border
+                      bg-neutral-100 hover:bg-neutral-50 active:bg-neutral-300
+                      border-neutral-200 hover:border-neutral-300 active:border-neutral-300
+                      hover:shadow active:shadow-inner
+                      text-sm font-medium text-black
+                      transition duration-100">
+
+            <div class="flex
+                        flex-col      md:flex-row
+                        items-center  md:items-baseline
+                        gap-0         md:gap-1
+                        transition-all duration-400">
+
+              <span class="group-hover:text-gray-700 group-active:text-gray-800"
+                >View Source Code</span>
+
+              <span class="text-xs
+                           text-gray-500 group-hover:text-gray-400 group-active:text-gray-500"
+                >on GitHub</span>
+
+            </div>
           </div>
-        </div>
-      </button>
-    </a>
+        </button>
+      </a>
+    </div>
   </div>
 
   <div>
