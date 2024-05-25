@@ -1,5 +1,8 @@
 /* Copyright (c) 2024 Peyton Seigo */
 
+/* html { #background-color: #d7d9e1; */
+/* html { #background-color: #fba371; */
+
 main {
   padding: 1.25em;
   margin-top: 0.375em;
@@ -8,6 +11,7 @@ main {
 div.number-blocks > * {
   margin-bottom: 1.25em;
 }
+
 
 div.one-block                  { width: 1px; height: 1px; }
 div.ten-block                  { width: 3px; }
@@ -22,3 +26,29 @@ div.one-billion-block
 {
   width: 100%;
 }
+
+/*
+div.one-block,
+div.ten-block,
+div.one-hundred-block,
+div.one-thousand-block,
+div.ten-thousand-block,
+div.one-hundred-thousand-block,
+div.one-million-block,
+div.ten-million-block,
+div.one-billion-block
+{
+  outline: solid 0.7px #a1a9c8;
+  box-shadow: inset 1px 1px #c7cad7;
+  */
+
+  /*
+   * outline: solid 0.7px #bf7950;
+   * box-shadow: inset 1px 1px #ce9b7d;
+   */
+
+  /*
+   * outline: solid 0.7px black;
+   * box-shadow: inset 1px 1px #b0b0b0;
+   */
+/* } */
